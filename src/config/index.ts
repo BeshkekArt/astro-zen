@@ -25,10 +25,10 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Nikita Arkhipov",
+    specialty: "Game Designer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+      "Game developer, of full game cycle. I specialize in many directions: UI/UX, Game Design, SFX, Modeling.",
     email: "example@email.com",
   },
   experience: [
