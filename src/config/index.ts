@@ -45,7 +45,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       company: "UForce",
-      position: "Project Manager (Leadgeneration)",
+      position: "Project Manager (Leadgen)",
       startDate: "Aug 2024",
       endDate: "Mar 2025",
       summary: [
@@ -60,7 +60,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "Aug 2024",
       endDate: "to this day",
       summary: [
-        "Acted as a solo artist and co-designer in a two-person team, directly shaping the game's core identity and contributing to its final 'Very Positive' community rating on Steam.",
+        "Acted as a solo artist and designer in a two-person team, directly shaping the game's core identity and contributing to its final 'Very Positive' community rating on Steam.",
         "Created the full visual and auditory pipeline: modeled voxel assets, authored SFX, developed shaders, particles, textures, produced marketing materials (posters, trailer), and implemented all in-game audio.",
         "Co-developed core gameplay ideas, balanced game mechanics, and iterated on systems to enhance player experience and engagement.",
       ],
