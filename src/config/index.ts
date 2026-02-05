@@ -1,15 +1,15 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Nikita Arhipov — Game Designer",
+  author: "EL Beshuele",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Full-cycle Game Developer with expertise in multiple disciplines: UI/UX Design, Game Design, Sound Design (SFX), and 3D Modeling.",
   lang: "en",
   siteLogo: "/alejandro-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
+    { text: "Skills", href: "#skills" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
@@ -25,72 +25,93 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Nikita Arkhipov",
+    specialty: "Game Designer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+      "Game developer, of full game cycle. I specialize in many directions: UI/UX, Game Design, SFX, Modeling.",
     email: "example@email.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "AIS Gorod",
+      position: "UI/UX Design Engineer",
+      startDate: "Jan 2021",
+      endDate: "Oct 2022",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "I collaborated with colleagues to design interfaces for various CRM systems. This included developing a comprehensive dashboard for the city manager of Dimitrovgrad.",
+        "My responsibilities encompassed creating detailed building and territory plans, designing adaptive icon sets and visual elements, and ensuring a cohesive user interface.",
+        "I contributed to the design of specialized system modules for municipal management, including education, housing and utilities (ЖКХ), and document workflow solutions.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "UForce",
+      position: "Project Manager (Leadgen)",
+      startDate: "Aug 2024",
+      endDate: "Mar 2025",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Directed targeted lead generation campaigns from initial brief to execution, employing market research and strategic planning to attract qualified prospects for client projects.",
+        "Executed email campaigns, communicated directly with leads through multiple channels, scheduled client meetings, and presented tailored product offerings to drive conversions.",
+        "Monitored key performance indicators (KPIs), analyzed campaign data to refine strategies, and provided stakeholders with detailed reports to ensure continuous improvement and ROI maximization.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "OldGround Software",
+      position: "Game Designer",
+      startDate: "Aug 2024",
+      endDate: "to this day",
+      summary: [
+        "Acted as a solo artist and designer in a two-person team, directly shaping the game's core identity and contributing to its final 'Very Positive' community rating on Steam.",
+        "Created the full visual and auditory pipeline: modeled voxel assets, authored SFX, developed shaders, particles, textures, produced marketing materials (posters, trailer), and implemented all in-game audio.",
+        "Co-developed core gameplay ideas, balanced game mechanics, and iterated on systems to enhance player experience and engagement.",
+      ],
     },
   ],
-  projects: [
+  skills: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "Visual & Art",
+      summary:
+        "Pixel art animation and tilesets, 3D low-poly modeling (Blender), texturing (Substance Painter), VFX creation in Unity, Shader Graph basics, particle systems.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "#",
+      image: "/3Dmodeling.jpg",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "Audio",
+      summary:
+        "SFX design and implementation, audio mixing for gameplay feedback.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "#",
+      image: "/Audacity2.jpg",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "Technical",
+      summary: "Basic C# scripting in Unity.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      linkSource: "#",
+      image: "/CSharp-in-Unity.jpg",
+    },
+    {
+      name: "Production",
+      summary:
+        "Task coordination, community feedback management, playtesting, and iterative design based on player data.",
+      linkPreview: "/",
+      linkSource: "#",
+      image: "/Ace Squared Promo2.png",
+    },
+    {
+      name: "Game Development",
+      summary:
+        "Mechanics design, balancing, full-cycle prototyping, documentation.",
+      linkPreview: "/",
+      linkSource: "#",
+      image: "/Game Development1.jpg",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
-    `,
+    Hello! I'm Nikita, a versatile game developer who sees the game project as a whole—from the initial idea and game design to final effects and interface. 
+    I have gained hands-on experience in full-cycle asset creation (pixel art, 3D modeling, VFX, SFX) and game system design, allowing me not only to execute tasks but also to understand how they impact gameplay and balance. 
+    My goal is to join a small indie team or a mobile studio where I can contribute as a Junior Game Designer / Developer or Technical Artist, helping to shape memorable and polished player experiences.`,
     image: "/alejandro-big.jpg",
   },
 };
