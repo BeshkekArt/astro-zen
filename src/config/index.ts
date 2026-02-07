@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Full-cycle Game Developer with expertise in multiple disciplines: UI/UX Design, Game Design, Sound Design (SFX), and 3D Modeling.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/nick-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Skills", href: "#skills" },
@@ -28,8 +28,8 @@ export const SITE_CONTENT: SiteContent = {
     name: "Nikita Arkhipov",
     specialty: "Game Designer",
     summary:
-      "Game developer, of full game cycle. I specialize in many directions: UI/UX, Game Design, SFX, Modeling.",
-    email: "example@email.com",
+      "Game developer, of full game cycle. Specialize in many directions: UI/UX, Game Design, SFX, Modeling.",
+    email: "beshkekart@gmail.com",
   },
   experience: [
     {
@@ -112,7 +112,7 @@ export const SITE_CONTENT: SiteContent = {
     Hello! I'm Nikita, a versatile game developer who sees the game project as a whole—from the initial idea and game design to final effects and interface. 
     I have gained hands-on experience in full-cycle asset creation (pixel art, 3D modeling, VFX, SFX) and game system design, allowing me not only to execute tasks but also to understand how they impact gameplay and balance. 
     My goal is to join a small indie team or a mobile studio where I can contribute as a Junior Game Designer / Developer or Technical Artist, helping to shape memorable and polished player experiences.`,
-    image: "/alejandro-big.jpg",
+    image: "/nick-big.jpg",
   },
 };
 
