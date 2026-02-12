@@ -17,7 +17,9 @@ const {
   canonicalURL = new URL(Astro.url.pathname, Astro.site).href,
 } = SITE_CONFIG;
 
-const ogImgUrl = new URL(socialImage, Astro.site).href;
+const ogImgUrl = Astro.site
+  ? new URL(socialImage, Astro.site).href
+  : socialImage;
 ---
 
 <!doctype html>
@@ -35,6 +37,7 @@ const ogImgUrl = new URL(socialImage, Astro.site).href;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={ogImgUrl} />
+    <meta property="og:type" content="website" />
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={canonicalURL} />
