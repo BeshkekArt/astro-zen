@@ -25,7 +25,7 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Nikita Arkipov",
+    name: "Nikita Arkhipov",
     specialty: "Game Designer",
     summary:
       "Game developer, of full game cycle. Specialize in many directions: UI/UX, Game Design, SFX, Modeling.",
