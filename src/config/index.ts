@@ -55,7 +55,7 @@ export const SITE_CONTENT: SiteContent = {
       ],
     },
     {
-      company: "OldGround Software",
+      company: "Ace Squared",
       position: "Game Designer",
       startDate: "Aug 2024",
       endDate: "to this day",
