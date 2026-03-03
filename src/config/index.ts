@@ -58,7 +58,7 @@ export const SITE_CONTENT: SiteContent = {
       company: "Ace Squared",
       position: "Game Designer",
       startDate: "Aug 2024",
-      endDate: "to this day",
+      endDate: "Mar 2026",
       summary: [
         "Acted as a solo artist and designer in a two-person team, directly shaping the game's core identity and contributing to its final 'Very Positive' community rating on Steam.",
         "Created the full visual and auditory pipeline: modeled voxel assets, authored SFX, developed shaders, particles, textures, produced marketing materials (posters, trailer), and implemented all in-game audio.",
